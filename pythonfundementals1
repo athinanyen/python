@@ -1,0 +1,112 @@
+#PYTHON INTRO
+#1-POPULAR PROGRAMING LANGUAGE.
+#2-CREATED BY GUIDO VAN ROSSUM IN 1991.
+#Uses:
+#1-web development
+#2-software development
+#3-mathematics
+#4-system scripting
+#syntax of PYTHON:
+print(21)
+print("angelina")
+#multi line comments:
+"""
+these are all the comments that i am typing on this compiler
+"""
+#PYTHON VARIBLES:empty containers in which you store your values:
+a=6
+b="aAngelina"
+print(a)
+print(b)
+print(a,b)
+x=(8)
+print(x)
+#varible names:
+#car_name,car_1,car1,Car_Name
+
+#camel case:each word, except the first starts with a capitol letter
+myCarName="Tesla"
+print(myCarName)
+#pascal case:each word stats with a capitol letter
+MyCarName="honda"
+print(MyCarName)
+#snake case:each word is seperated with an underscore
+My_Car_Name="honda"
+print(My_Car_Name)
+
+#assign multiple values:
+a,b,c=1,2,3
+print(a)
+print(b)
+print(c)
+x,y,z="apple","pear","peach"
+print(x)
+print(y)
+print(z)
+x=y=z=8
+print(x)
+print(y)
+print(z)
+#unpack a collection:
+fruits=["apple", "pear","cherry"]
+x,y,z=fruits
+print(x)
+print(y)
+print(z)
+
+#output varibles:
+h="python"
+o="workin"
+d="good"
+print(h,o,d)
+
+h="python "
+o="workin "
+d="good"
+print(h+o+d)
+
+myCarName="tesla"
+print(myCarName)
+
+MyCarName="honda"
+print(MyCarName)
+
+My_Car_Name="honda"
+print(My_Car_Name)
+
+a,b,c=4,5,3
+print(a)
+print(b)
+print(c)
+x,y,z="mango","pear","pineapple"
+print(x)
+print(y)
+print(z)
+x=y=z=3
+print(x)
+print(y)
+print(z)
+color=["pink", "red","green"]
+x,y,z=color
+print(x)
+print(y)
+print(z)
+
+j="Eating"
+i="Good"
+t="tonight"
+print(j,i,t)
+
+j="Eating "
+i="Good "
+t="tonight"
+print(j+i+t)
+
+MyColorName="red"
+print(MyColorName)
+
+g="yummy"
+u=" inside "
+d="my "
+r="tummy"
+print(g+u+d+r)
