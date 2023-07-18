@@ -1,0 +1,90 @@
+#python strings:
+#they are text surronded by double or single quotes
+x="hello, how are you?"
+print(x)
+#get the type:
+print(type(x))
+#length of a strings:
+print(len(x))
+#access the string:
+y="hello"
+print(y[2])
+#looping through a string:
+for x in "pineapple":
+    print("pineapple")
+#Chacking a string:
+text="goodbyes are very hard to say!"
+print("goodbyes" in text)
+
+text="This is coding"
+print("this" in text)
+x="whats good?"
+print(x)
+print(type(x))
+print(len(x))
+
+#slicing strings:
+#positive indexing
+b="waterbottle"
+print(b[5:11])
+c="programming"
+print(c[3:7])
+#negative indexing:
+x="angelina"
+-8 -7 -6 -5 -4 -3 -2 -1
+print(x[-6:])
+
+a="amuesment"
+print(a[5:8])
+
+a="amuesment"
+-9 -8 -7 -6 -5 -4 -3 -2 -1
+print(a[-5:-8])
+
+a="pneumonoultramicroscopicsilicovolcanoconiosis"
+print(a[8:13])
+
+x="pneumonoultramicroscopicsilicovolcanoconiosis"
+-45 -44 -43 -42 -41 -40 -39 -38 -37 -36 -35 -34 -33 -32 -31 -30 -29 -28 -27 -26 -25 -24 -23 -22 -21 -20 -19 -18 -17 -16 -15 -14 -13 -12 -11 -10 -9 -8 -7 -6 -5 -4 -3 -2 -1
+print(x[-8:-13])
+
+#modify strings:
+#upper()method:
+a="hello"
+print(a.upper())
+#lower method
+b="hello"
+print(b.lower())
+#capitalize()method:
+c="hello"
+print(c.capitalize())
+#strip()method:removes whitespaces from beginning and at the end
+text="                today is tuesday."
+print(text.strip())
+
+#replace()method:
+x="hello"
+print(x.replace("hello","hi"))
+y="hello, today is tuesday."
+z=y.split(",")
+print(z)
+
+a="coding"
+print(a.upper())
+l="coding"
+print(l.lower())
+d="coding"
+print(d.capitalize())
+text="      yesterday was monday."
+print(text.strip())
+g="code"
+print(g.replace("code","coding"))
+r="tomorrow, is wenesday."
+z=r.split(",")
+print(z)
+
+#string concatenation
+a="hello"
+b="angelina"
+print(a,b)
+print(a+" "+ b)
