@@ -1,0 +1,135 @@
+#format strings:
+age=14
+height=5.5
+text="Angelina is {} years old. Her height is {}"
+print(text.format(age,height))
+#escape characters:
+#singgle quote(\')
+text="it\'s raining heavvily."
+print(text)
+#new line(\n)
+text="hello,\n I am Angelina. \n I go to school."
+print(text)
+#tab(\t):
+text="hello,\t I am Angelina. \t I go to school."
+print(text)
+text="hello,\b I am Angelina. \b I go to school."
+print(text)
+
+text="\n I go to school. \n school starts in august"
+print(text)
+text="\t I go to school. \t school starts in august"
+print(text)
+text="\b I go to school. \b school starts in august"
+print(text)
+text="school start\'s in august."
+print(text)
+age=14
+text="angelina is {} years old."
+print(text.format(age))
+
+#booleans
+print(12==12)
+print(12>4)
+print(12<4)
+x=5
+y=14
+print(x>y)
+print(x==y)
+print(x<y)
+print(x<=y)
+print(x>=y)
+a=200
+b=44
+if b > a:
+    print("b is greater")
+else:
+    print("a is greater")
+print(bool(False))
+print(bool())
+print(bool(0))
+print(bool(None))
+print(bool(""))
+
+print(bool("hello"))
+print(bool(234))
+x="hello"
+y=8492
+print(bool(x))
+print(bool(y))
+
+print(7>6)
+a=600
+b=500
+if b > a:
+    print("b is greater")
+else:
+    print("a is greater")
+print(bool(False))
+print(bool())
+print(bool(0))
+print(bool(None))
+print(bool(""))
+print(bool("hi"))
+x="hi"
+y=56
+print(bool(x))
+print(bool(y))
+print(bool(49838843323083849344829))
+
+#operators
+#arithmetic: (+,-,*,/,%,**, exponentiation,//floor division)
+x=77
+yy=99
+print(x+y)
+print(x-y)
+print(x*y)
+print(x/y)
+print(x**y)
+print(x//y)
+
+x=33
+yy=74
+print(x+y)
+print(x-y)
+print(x*y)
+print(x/y)
+print(x**y)
+print(x//y)
+#assignment:+=,-=,/=,**=,//=,&=,<<=,>>=,|=
+a=5
+a+=33
+print(a)
+a=5
+a-=33
+print(a)
+a=5
+a/=33
+print(a)
+a=5
+a**=33
+print(a)
+a=5
+a//=33
+print(a)
+a=5
+a&=33
+print(a)
+a=5
+a<<=33
+print(a)
+a=5
+a>>=33
+print(a)
+a=5
+a|=33
+print(a)
+#comparision:==,<,>,<=,>=,!=
+x=8
+y=9
+print(x==y)
+print(x<=y)
+print(x>=y)
+print(x>y)
+print(x<y)
+print(x!=y)
