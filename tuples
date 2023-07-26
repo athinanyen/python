@@ -1,0 +1,49 @@
+#python tuples:
+#used to store multiple items in a single varible
+#ordered but they are unchangable
+#we use round brackets
+#create a tuple:
+mytuple=("kiwi","orange","pear")
+print(mytuple)
+#get the type:
+mytuple=("kiwi","orange","pear")
+print(print(mytuple))
+#get the length
+mytuple=("kiwi","orange","pear")
+print(len(mytuple))
+#allows duplicate values
+mytuple=("kiwi","orange","pear","kiwi","orange")
+print(mytuple)
+mytuple=("kiwi",5,3,4,34,54j,True)
+print(mytuple)
+#tuple constructor:
+mytuple=tuple(("kiwi","apple","pear"))
+print(mytuple)
+
+mytuple=("pink","blue","purple")
+print(mytuple)
+mytuple=("pink","blue","purple")
+print(print(mytuple))
+mytuple=("pink","blue","purple")
+print(len(mytuple))
+mytuple=("pink","blue","purple","pink","blue")
+print(mytuple)
+mytuple=("pink","blue","purple",7,45,4.5,6j)
+print(mytuple)
+mytuple=tuple(("pink","blue","purple"))
+print(mytuple)
+
+#access items:
+mytuple=("pink","blue","purple")
+print(mytuple[1:3])
+#negative indexing
+mytuple=("pink","blue","purple")
+print(mytuple[-2])
+
+mytuple=("pink","blue","purple")
+print(mytuple[1:3])
+
+mytuple=("pink","blue","green")
+print(mytuple[-1])
+
+
