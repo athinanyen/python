@@ -1,0 +1,100 @@
+#list comprehension:
+fruits=["apple","kiwi","pear"]
+newlist=[]
+for x in fruits:
+    if "a" in x:
+        newlist.append(x)
+print(newlist)
+#shortthand comprehension:
+fruits=["apple","kiwi","pear"]
+newlist=[x for x in fruits if "a" in x]
+print(newlist)
+
+colors=["Black","blue","yellow"]
+newlist=[]
+for x in colors:
+    if "l" in x:
+        newlist.append(x)
+print(newlist)
+
+colors=["Black","blue","yellow"]
+newlist=[x for x in colors if "l" in x]
+print(newlist)
+
+#sorting:
+#ascending
+mylist=["banana","kiwi","pear","apricot","cherry"]
+mylist.sort()
+print(mylist)
+#descending
+mylist=["banana","kiwi","pear","apricot","cherry"]
+mylist.sort(reverse=True)
+print(mylist)
+numbers=[34,56,34,2,5,34,23,4,21]
+numbers.sort(reverse=True)
+print(numbers)
+#reverse orders:
+numbers=[34,56,34,2,5,34,23,4,21]
+numbers.reverse()
+print(numbers)
+
+mylist=["angelina","toby","riley","kim","billy"]
+mylist.sort()
+print(mylist)
+
+mylist=["angelina","toby","riley","kim","billy"]
+mylist.sort(reverse=True)
+print(mylist)
+
+mylist=["angelina","toby","riley","kim","billy"]
+mylist.reverse()
+print(mylist)
+
+#copy():
+mylist=["angelina","toby","riley","kim","billy"]
+newlist=mylist.copy()
+print(newlist)
+
+#list():
+mylist=["angelina","toby","riley","kim","billy"]
+newlist=list(mylist)
+print(newlist)
+
+#join list:
+list1=[1,2,3]
+list2=["a","b","c"]
+list3=list1+list2
+print(list3)
+print(list1+list2)
+#append
+list1=[1,2,3]
+list2=["a","b","c"]
+for x in list2:
+    list1.append(x)
+print(list1)
+list1=[1,2,3]
+list2=["a","b","c"]
+for x in list2:
+    list2.extend(x)
+print(list2)
+
+mylist=["pink","blue","green"]
+newlist=mylist.copy()
+print(newlist)
+
+mylist=["pink","blue","green"]
+newlist=list(mylist)
+print(newlist)
+
+list1=[5,6,7]
+list2=["d","e","f"]
+list3=list1+list2
+print(list3)
+print(list1+list2)
+
+list1=[5,6,7]
+list2=["d","e","f"]
+for x in list2:
+    list1.append(x)
+print(list1)
+
