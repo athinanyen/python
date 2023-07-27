@@ -1,0 +1,108 @@
+#update tuples:
+x=("apple","pear","kiwi","peach")
+y=list(x)
+y[2]="cherry"
+x=tuple(y)
+print(x)
+x=("string",12,6.6,54j,False)
+y=list(x)
+y[1:6]=["boolean"]
+x=tuple(y)
+print(x)
+#append():
+x=("apple","pear","kiwi","peach")
+y=list(x)
+y.append("orange")
+x=tuple(y)
+print(x)
+#remove
+x=("apple","pear","kiwi","peach")
+y=list(x)
+y.remove("pear")
+x=tuple(y)
+print(x)
+# #delete tuple
+# x=("apple","pear","kiwi","peach")
+# del x 
+# print(x)
+
+x=("red","orange", "green","blue","yellow")
+y=list(x)
+y[4]="pink"
+x=tuple(y)
+print(x)
+
+x=("red","orange", "green","blue","yellow")
+y=list(x)
+y.append("pink")
+x=tuple(y)
+print(x)
+
+# x=("red","orange", "green","blue","yellow")
+# del x
+# print(x)
+
+#join tuples
+tuple1=(1,2,3,4,5,6,7,8,9)
+tuples2=("a","b","c")
+tuple3=(tuple1+tuples2)
+print(tuple3)
+print(tuple1+tuples2)
+#multiple tuples2
+x=("red","orange", "green","blue","yellow")
+y=x*3
+print(y)
+
+tuple1=("32","33","75","43")
+tuple2=("A","B","D")
+tuple3=(tuple1+tuple2)
+print(tuple3)
+
+x=("32","33","75","43")
+y=x*21
+print(y)
+
+#unpack a tuple
+x=("red","orange", "green","blue","yellow")
+(apple,banana,cherry,grape,pear)=x
+print(apple)
+print(banana)
+print(cherry)
+print(grape)
+print(pear)
+
+#loop through a tuple
+x=("apple","pear","kiwi","peach")
+for x in x:
+    print(x)
+   
+x=("apple","pear","kiwi","peach")
+i=0
+while i<len(x):
+    print(x[i])
+    i=i+1
+
+x=("pink","blue","white")
+(cookie,berry,water)=x
+print(cookie)
+print(berry)
+print(water)
+
+x=("pink","blue")
+for x in x:
+     print(x)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
